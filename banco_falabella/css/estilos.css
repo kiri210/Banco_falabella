@@ -1,0 +1,581 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body{    /* ....... cuerpo de la pagina  .............*/ 
+    
+    position: relative;
+}
+ 
+.menu{   /* .......  menu ..............*/ 
+    list-style: none;
+    padding: 0;
+    background: #262729;
+    width: 1498px;
+    margin-top: -10px;
+    margin-left: -10px;
+    height: 35px;
+    text-align: left;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.menu li a {  /* ....... propiedades de la lista y lista a <a>..............*/ 
+    text-decoration: none;
+    
+    color: white;
+    margin-left: 5px;
+    font-size: 12px;
+    padding: 5px;
+    display:block;
+    margin-top: 5px;
+    
+} 
+.menu li{  /* ....... propiedades del menu y lista.............*/ 
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.menu2{ /* ....... propiedades del menu 2 ..............*/ 
+    list-style: none;
+    padding: 0;
+   
+    
+    margin-top: -29px;
+    margin-left: 1100px;
+    height: 35px;
+    text-align: right;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    
+}
+.menu2 li{  /* ....... propiedades de la lista del menu 2 .............*/ 
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+.menu2 li a {  /* ....... propiedad de la lista y los <a> del menu 2 ..............*/ 
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    font-size: 12px;
+    padding: 5px;
+    display:block;
+    margin-top: 5px;
+    
+}
+.img{  /* ....... propiedad de imgagenes .............*/ 
+    width: 271px;
+    height: 47px;
+    margin-top: 35px;
+    margin-left: 175px;
+    
+}
+ .btn{ /* ....... propiedad del boton .............*/ 
+    background-color: #43B02A;
+    padding: 10px 16px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    font-family:  'Lobster', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 10px;
+    letter-spacing: 0.25em;
+  word-spacing: 0.25em;
+  margin-left: 1150px;
+  margin-top: -55px;
+  position: absolute;
+  }
+  
+  
+.opciones {  /* ....... opciones y sus propiedades (segundo menu ) ..............*/ 
+    margin-left: 170px;
+    margin-top: 30px;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+     }
+.opciones a {       /* ....... propiedad del texto dentro del segundo menu ..............*/ 
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+    line-height: 16px;
+    padding: 1px;
+       
+         }
+
+.bannerbody{ /* ....... propiedad de la imagen del banner ..............*/ 
+    width: 1496px;
+    height: 403px;
+    margin-left: -188px;
+    margin-top: 30px;
+} 
+.contenedor1{  /* ....... propiedad del contenedor 1 ..............*/ 
+    width: 1125px;
+    height: 99px;
+    margin-top: 10px;
+    background-color: #F7F7F7;
+    margin-left: 176px;
+    border-style: dotted;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #EDB1B6;
+}
+
+.cajatxt{  /* ....... propiedad de la caja de texto..............*/ 
+    width: 329px;
+    height: 35px;
+    margin-top: -30px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #EBB8BD;
+    position: relative;
+    
+}
+
+.cajatxt::placeholder{ /* ....... propiedad del interior de la caja de texto..............*/ 
+   margin-top: 10px;
+  margin-left: 10px;
+  position:absolute;
+    
+}
+
+
+.btn2{ /* ....... boton dos y sus propiedades..............*/ 
+    width: 191px;
+    height: 41px;
+    margin-top: 18px;
+    background-color: #43B02A;
+    padding: 10px 16px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    font-family:  'Lobster', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 10px;
+   
+  word-spacing: 0.25em;
+    
+}
+
+.ingreso  {   /* ....... ingreso y sus propiedades ..............*/ 
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 50px;
+    word-spacing: 2em;
+}
+h3{   /* ....... propiedad del header.............*/ 
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Arial', sans-serif;
+    margin-top: 40px;
+    margin-left: 60px;
+    color: #1E1E1E;
+}
+
+.caja{  /* ....... propiedad de la caja  .............*/ 
+    
+    width: 345px;
+    height: 410px;
+    margin-top: 30px;
+    margin-left: 188px;
+    border: 1px solid rgb(128, 128, 128);
+   padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    transition: 3s;
+    text-decoration: none;
+    
+   
+}
+
+
+
+ 
+a {  /* ....... propiedad del texto <a>.............*/ 
+    
+    color: rgb(124, 124, 124);
+    font-weight: 100px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    
+}
+
+.pv {  /* ....... propiedad del texto con link..............*/ 
+    
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+
+.caja .carru1{ /* ....... propiedad del carrusel 1 .............*/ 
+    width: 328px;
+    height: 250px;
+    
+}
+.caja:hover{ /* ....... propiedad interna de la caja ..............*/ 
+    top: -10px;
+  
+  
+
+}
+
+.caja1{ /* ....... propiedad de la caja 1 ..............*/ 
+    
+    width: 345px;
+    height: 410px;
+    margin-top: -413px;
+    margin-left: 578px;
+    border: 1px solid rgb(128, 128, 128);
+   padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    
+   
+}
+
+.caja1 .carru1{ /* ....... propiedad de la caja y su imagen .............*/ 
+    width: 328px;
+    height: 250px;
+    
+}
+
+.caja2{ /* ....... propiedad caja 2 ..............*/ 
+    
+    width: 345px;
+    height: 410px;
+    margin-top: -411px;
+    margin-left: 970px;
+    border: 1px solid rgb(128, 128, 128);
+   padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    
+   
+}
+
+.caja2 .carru1{ /* ....... propiedad de la caja y su imagen .............*/ 
+    width: 328px;
+    height: 250px;
+    
+}
+
+.img1 {  /* ....... propiedad de la imagen" .............*/ 
+    width: 490px;
+    height: 269px;
+    margin-top: 30px;
+    margin-left: 410px;
+}
+
+.anuncio{ /* ....... ubicacion de la imagen .............*/ 
+    margin-left: 340px;
+    margin-top: -150px;
+
+}
+.anuncio h1{  /* ....... propiedad del encabezado ..............*/ 
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    
+}
+.anuncio .btn2{ /* ....... propiedad del boton2  .............*/ 
+    font-size: 15px;
+    letter-spacing: 0.25em;
+    width: 260px;
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.img2 { /* ....... propiedad de la imagen2..............*/ 
+    width: 494px;
+    height: 269px;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.anuncio2{ /* ....... ubicacion de la imagen2 ..............*/ 
+    margin-left: 910px;
+    margin-top: -150px;
+
+}
+.anuncio2 h1{ /* ....... propiedad de la caja de texto  ..............*/ 
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    
+}
+.anuncio2 .btn2{ /* ....... propiedad del anuncio y el boton 2 .............*/ 
+    font-size: 15px;
+    letter-spacing: 0.25em;
+    width: 260px;
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.img3 { /* ....... propiedad de la imagen 3 .............*/ 
+    width: 494px;
+    height: 269px;
+    margin-top: 30px;
+    margin-left: 410px;
+}
+
+.anuncio3{ /* ....... propiedad del anuncio 3.............*/ 
+    margin-left: 340px;
+    margin-top: -150px;
+
+}
+.anuncio3 h1{ /* ....... propiedad del anuncio y su caja de texto ..............*/ 
+    font-size: 18px; 
+    font-family: 'Arial', sans-serif;
+    
+}
+.anuncio3 .btn2{ /* ....... propiedad  del boton 2 ..............*/ 
+    font-size: 15px;
+    letter-spacing: 0.25em;
+    width: 260px;
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.img4 { /* ....... propiedad de la imagen 4 ..............*/ 
+    width: 494px;
+    height: 269px;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.anuncio4{ /* ....... ubicacion  de la imagen4 ..............*/ 
+    margin-left: 910px;
+    margin-top: -150px;
+
+}
+.anuncio4 h1{ /* ....... propiedad del anuncio la  caja de texto ..............*/ 
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    
+}
+.anuncio4 .btn2{ /* .......propiedad del anuncio  y el boton 2 ..............*/ 
+    font-size: 15px;
+    letter-spacing: 0.25em;
+    width: 260px;
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.img5 { /* ....... propiedad de la imagen 5 .............*/ 
+    width: 494px;
+    height: 269px;
+    margin-top: 30px;
+    margin-left: 410px;
+}
+
+.anuncio5{    /* ....... ubicacion de la img 5  ..............*/ 
+    margin-left: 340px;
+    margin-top: -150px;
+
+}
+.anuncio5 h1{ /* ....... propiedad anuncio 5 y su caja de texto..............*/ 
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    
+}
+.anuncio5 .btn2{ /* ....... propiedad del boton de anuncio 5 ..............*/ 
+    font-size: 15px;
+    letter-spacing: 0.25em;
+    width: 260px;
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.img6{ /* ....... propiedad de la imagen6 .............*/ 
+    width: 494px;
+    height: 269px;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.anuncio6{  /* ....... ubicacion de la imagen6 ..............*/ 
+    margin-left: 910px;
+    margin-top: -150px;
+
+}
+.anuncio6 h1{ /* .......propiedad de la caja de texto ..............*/ 
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    
+}
+.anuncio6 .btn2{ /* ....... propiedad del boton ..............*/ 
+    font-size: 15px;
+    letter-spacing: 0.25em;
+    width: 260px;
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.img7{ /* ....... propiedad  de la imagen7 .............*/ 
+    width: 494px;
+    height: 269px;
+    margin-top: 70px;
+    margin-left: 410px;
+}
+
+.anuncio7{ /* ....... ubicacion de la imagen7 ..............*/ 
+    margin-left: 340px;
+    margin-top: -150px;
+
+}
+.anuncio7 h1{ /* ....... propiedad de la caja de texto ..............*/ 
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    
+}
+.anuncio7 .btn2{ /* .......propiedad del boton ..............*/ 
+    font-size: 15px;
+    letter-spacing: 0.25em;
+    width: 260px;
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.img77{ /* ....... propiedad de la imagen8 .............*/ 
+    width: 494px;
+    height: 269px;
+    margin-top: 120px;
+    margin-left: 410px;
+}
+
+.anuncio77 { /* ....... ubicacion de la imagen8 .............*/ 
+    margin-left: 340px;
+    margin-top: -70px;
+
+}
+.anuncio77 h1{ /* ....... caja de texto de imagen8 ..............*/ 
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    
+}
+.anuncio77 .btn2{/* ....... propiedad del boton ..............*/ 
+    font-size: 15px;
+    letter-spacing: 0.25em;
+    width: 260px;
+    height: 43px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+
+.img8{   /* ....... banner antes del footer ..............*/ 
+    width: 1200px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+.contenedores{
+    width: 100%;
+    
+    display:flex;
+    max-width: 1100px;
+}
+.tarjeta{ /* ....... tarjeta ..............*/ 
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+.contenedor{ /* ....... propiedad de CONTENEDOR DE TEXTO ..............*/ 
+    max-width: 1170px;
+    
+    background-color: #262529;
+    margin: auto;
+}
+.fila{ /* ........ propiedad de las FILAS..............*/
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{ 
+    list-style: none;
+
+}
+.footer{ /* ........FOOTER ESTRUCTURA ..............*/
+    height: 700px;
+    margin-top: 100px;
+    background: #262529;
+    padding: 40px 0px;  /* ........propiedad de ALTURA DE TITULO ..............*/
+    color: #fff;
+}
+.columna{ /* ........propiedad COLUMNAS ..............*/
+    margin-bottom: 20px;
+    width: 300px; /* ........ propiedad SEPARACION DE LAS COLUMNAS..............*/
+    height: 474; /* ........propiedad LARGO DE COLUMNAS ..............*/
+    padding: 0 19px;
+}
+.columna h4{ /* ........propiedad TITULOS ..............*/
+    padding: 13px 0px;
+    font-size: 19px;
+    font-family: pfbeausans, Arial, sans-serif;
+}
+
+.columna a{ /* ....... propiedad de los <a> de la columna ..............*/ 
+    font-size: 14px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.redes{ /* ....... propiedad de las redes ..............*/ 
+    padding-left: 300px;
+    padding-top: 10px;
+    min-width: 300px;
+    line-height: 100px;
+    display: block;
+    text-align: end;
+}
+.redes a{ /* ....... propiedad de las font de las redes ..............*/ 
+    display: inline-block;
+    color:#fff;
+    font-size: 50px;
+}
+.textofinal{ /* ....... propiedad del ultimo texto derechos de autor ..............*/ 
+    font-size: 11px;
+    padding-top: 49px;
+    text-align: center;
+    line-height: 30px;
+}
+.textofinal a{ /* .......color del ultimo texto ..............*/ 
+    color:#fff;
+}
